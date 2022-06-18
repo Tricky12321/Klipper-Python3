@@ -4,7 +4,7 @@
 #
 # This file may be distributed under the terms of the GNU GPLv3 license.
 from __future__ import absolute_import
-import os, glob, re, time, logging, six.moves.configparser as configparser, StringIO
+import os, glob, re, time, logging, six.moves.configparser as configparser, io.StringIO
 
 error = configparser.Error
 
