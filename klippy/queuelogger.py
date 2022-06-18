@@ -4,7 +4,7 @@
 #
 # This file may be distributed under the terms of the GNU GPLv3 license.
 from __future__ import absolute_import
-import logging, logging.handlers, threading, Queue as queue, time
+import logging, logging.handlers, threading, queue, time
 
 # Class to forward all messages through a queue to a background thread
 class QueueHandler(logging.Handler):

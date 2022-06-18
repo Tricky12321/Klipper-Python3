@@ -4,7 +4,7 @@
 #
 # This file may be distributed under the terms of the GNU GPLv3 license.
 from __future__ import absolute_import
-import os, gc, select, math, time, logging, Queue as queue
+import os, gc, select, math, time, logging, queue
 import greenlet
 import chelper, util
 
